@@ -17,6 +17,7 @@ A personal quick-reference guide covering various technology topics. Use the lin
 | [Web Technologies](./web/README.md) | HTTP, REST, GraphQL |
 | [Linux & Shell](./linux/README.md) | Commands, Scripting, File System |
 | [Networking](./networking/networking.md) | OSI/TCP-IP, IP Addressing, DNS, TCP/UDP, HTTP/TLS, Load Balancing, CDN, Security, WebSockets, Microservices Networking, Cloud Networking |
+| [Artificial Intelligence](./artificial-intelligence/) | Gen AI Fundamentals, LLMs, RAG, Agentic Workflows, Solution Design, Guardrails, Evaluation |
 
 ---
 
@@ -42,3 +43,7 @@ A personal quick-reference guide covering various technology topics. Use the lin
 - [HTTP & REST Reference](./web/README.md)
 - [Linux & Shell Reference](./linux/README.md)
 - [Networking Fundamentals](./networking/networking.md)
+- [AI Overview](./artificial-intelligence/README.md)
+- [Gen AI Fundamentals](./artificial-intelligence/gen-ai-fundamentals.md)
+- [Agentic Workflows](./artificial-intelligence/agentic-workflows.md)
+- [Gen AI Solution Design](./artificial-intelligence/gen-ai-solution-design.md)
