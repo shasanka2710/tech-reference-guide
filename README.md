@@ -18,6 +18,7 @@ A personal quick-reference guide covering various technology topics. Use the lin
 | [Linux & Shell](./linux/README.md) | Commands, Scripting, File System |
 | [Networking](./networking/networking.md) | OSI/TCP-IP, IP Addressing, DNS, TCP/UDP, HTTP/TLS, Load Balancing, CDN, Security, WebSockets, Microservices Networking, Cloud Networking |
 | [Artificial Intelligence](./artificial-intelligence/) | Gen AI Fundamentals, LLMs, RAG, Agentic Workflows, Solution Design, Guardrails, Evaluation |
+| [Messaging & Streaming](./messaging/) | Messaging Fundamentals, Apache Kafka, Streaming Platforms, Apache Flink |
 
 ---
 
@@ -47,3 +48,8 @@ A personal quick-reference guide covering various technology topics. Use the lin
 - [Gen AI Fundamentals](./artificial-intelligence/gen-ai-fundamentals.md)
 - [Agentic Workflows](./artificial-intelligence/agentic-workflows.md)
 - [Gen AI Solution Design](./artificial-intelligence/gen-ai-solution-design.md)
+- [Messaging & Streaming Overview](./messaging/README.md)
+- [Messaging Queue Fundamentals](./messaging/messaging-fundamentals.md)
+- [Apache Kafka Deep Dive](./messaging/kafka.md)
+- [Streaming Platforms Comparison](./messaging/streaming-platforms.md)
+- [Apache Flink Fundamentals](./messaging/flink.md)
