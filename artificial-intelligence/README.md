@@ -12,6 +12,7 @@
 | 1 | [Gen AI Fundamentals](#gen-ai-fundamentals) | [gen-ai-fundamentals.md](./gen-ai-fundamentals.md) |
 | 2 | [Agentic Workflows](#agentic-workflows) | [agentic-workflows.md](./agentic-workflows.md) |
 | 3 | [Gen AI Solution Design](#gen-ai-solution-design) | [gen-ai-solution-design.md](./gen-ai-solution-design.md) |
+| 4 | [Agent Development Kits (ADK)](#agent-development-kits-adk) | [adk/README.md](./adk/README.md) |
 
 ---
 
@@ -46,6 +47,12 @@ mindmap
       Cost Optimisation
       Observability & Monitoring
       Common Use Cases
+    Agent Development Kits
+      Google ADK
+      LangGraph
+      AutoGen
+      CrewAI
+      My First ADK Program
 ```
 
 ---
@@ -63,10 +70,11 @@ flowchart TD
     G --> H["🔗 Agentic Workflow\nPatterns"]
     H --> I["🏗️ Solution Design\n& Architecture"]
     I --> J["🛡️ Safety, Cost\n& Observability"]
-    J --> K["🚀 Production-Ready\nGen AI Systems"]
+    J --> K["🛠️ ADK Frameworks\n& Tooling"]
+    K --> L["🚀 Production-Ready\nGen AI Systems"]
 
     style A fill:#4A90D9,color:#fff
-    style K fill:#27AE60,color:#fff
+    style L fill:#27AE60,color:#fff
 ```
 
 ---
@@ -119,6 +127,23 @@ Architectural guidance for building reliable, cost-effective, and safe Gen AI so
 
 ---
 
+## Agent Development Kits (ADK)
+
+**Folder:** [adk/](./adk/)
+
+A comprehensive principal-engineer-level reference covering the major ADK frameworks — the SDKs and platforms used to build, orchestrate, and deploy production AI agents:
+
+| File | Framework | What It Covers |
+|------|-----------|----------------|
+| [adk/README.md](./adk/README.md) | All frameworks | Landscape overview, comparison matrix, principal engineer decision guide |
+| [adk/google-adk.md](./adk/google-adk.md) | Google ADK | Architecture, session state, multi-agent, A2A protocol, Vertex AI deployment |
+| [adk/langgraph.md](./adk/langgraph.md) | LangGraph | Graph state machines, checkpoints, human-in-the-loop, multi-agent patterns |
+| [adk/autogen.md](./adk/autogen.md) | Microsoft AutoGen | Conversational agents, code execution, team patterns, MagenticOne |
+| [adk/crewai.md](./adk/crewai.md) | CrewAI | Role-based crews, Flows DSL, built-in tools, memory and knowledge |
+| [adk/my-first-adk-program.md](./adk/my-first-adk-program.md) | All frameworks | Step-by-step first agent tutorial with full code and explanations |
+
+---
+
 ## 🔑 Key Concepts at a Glance
 
 | Concept | One-line Definition |
@@ -138,3 +163,9 @@ Architectural guidance for building reliable, cost-effective, and safe Gen AI so
 | **Fine-tuning** | Further training a model on domain-specific data to specialise behaviour |
 | **Inference** | Running the model to generate output (as opposed to training) |
 | **Latency / TTFT** | Time-to-First-Token — a key responsiveness metric for streaming apps |
+| **ADK** | Agent Development Kit — a framework/SDK for building, orchestrating, and deploying AI agents |
+| **LangGraph** | Graph-based agent orchestration where nodes are work units and edges are transitions |
+| **AutoGen** | Microsoft's multi-agent framework where agents collaborate via structured conversation |
+| **CrewAI** | Role-based multi-agent framework modelling agents as a team with assigned tasks |
+| **A2A Protocol** | Agent-to-Agent — Google-led standard for inter-agent communication across frameworks |
+| **MCP** | Model Context Protocol — Anthropic-led standard for connecting LLMs to tools and data |
