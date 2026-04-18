@@ -1,5 +1,12 @@
 # 🏗️ System Design Quick Reference
 
+## Reference Files
+
+| File | Description |
+|---|---|
+| [microservices-design-patterns.md](./microservices-design-patterns.md) | All microservices design patterns — decomposition, communication, data, resilience, security, observability, deployment |
+| [resilience-patterns.md](./resilience-patterns.md) | Deep-dive on resilience patterns with implementation examples |
+
 ## Core Principles
 
 ```
